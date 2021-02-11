@@ -3,6 +3,7 @@
 }
 a {
     text-decoration: none;
+    outline: none;
 }
 ul {
     list-style: none;
@@ -129,4 +130,44 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     border: none;
     cursor: pointer;
     outline: none;
+}
+.footer {
+    margin-top: 500px;
+    background: rgba(0, 0, 0, 0.94);
+    padding-top: 40px;
+}
+.footer-menu-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-menu {
+    padding: 0;
+}
+.footer-menu-item:not(:last-child) {
+    margin-right: 43px;
+}
+.footer-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.social-link {
+    margin-left: 19px;
+}
+.footer-line {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.payment-logo {
+    margin-right: 22px;
+}
+.sub-footer-item:not(:last-child) {
+    margin-right: 40px; 
+}
+.sub-footer-menu {
+    padding-top: 40px;
+    padding-bottom: 26px;
 }
