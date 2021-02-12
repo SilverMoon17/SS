@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -22,23 +22,37 @@
                     </a>
                 </div>
                 <div class="col-8">
-                    <ul class="navigation d-flex justify-content-between">
-                        <li class="navigation-item">
-                            <a href="" class="navigation-link">Главная</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="" class="navigation-link">Новости</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="" class="navigation-link">Расписание</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="" class="navigation-link">О нас</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="" class="navigation-link">Помощь</a>
-                        </li>
-                    </ul>
+                    <nav>
+                        <ul class="navigation d-flex justify-content-between">
+                            <li class="navigation-item">
+                                <a href="" class="navigation-link">Главная</a>
+                            </li>
+                            <li class="navigation-item dropdown">
+                                <a href="" class="navigation-link dropbtn">Новости</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Актуальное</a>
+                                    <a href="#">Инновации</a>
+                                    <a href="#">Новое</a>
+                                </div>
+                            </li>
+                            <li class="navigation-item dropdown">
+                                <a href="" class="navigation-link dropbtn">Расписание</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Понедельник</a>
+                                    <a href="#">Вторник</a>
+                                    <a href="#">Среда</a>
+                                    <a href="#">Четверг</a>
+                                    <a href="#">Пятница</a>
+                                </div>
+                            </li>
+                            <li class="navigation-item">
+                                <a href="" class="navigation-link">О нас</a>
+                            </li>
+                            <li class="navigation-item">
+                                <a href="" class="navigation-link">Помощь</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
                 <!-- /.col-8 -->
                 <div class="col-3 d-flex justify-content-end">
@@ -79,7 +93,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="slide slide-1 swiper-slide">
+                <section class="slide slide-2 swiper-slide">
                     <div class="container">
                         <div class="row">
                             <div class="col-5 offset-lg-1">
@@ -98,7 +112,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="slide slide-1 swiper-slide">
+                <section class="slide slide-3 swiper-slide">
                     <div class="container">
                         <div class="row">
                             <div class="col-5 offset-lg-1">
@@ -207,6 +221,7 @@
     </footer>
         <!-- /.footer -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
