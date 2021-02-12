@@ -156,6 +156,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     padding: 15px 45px;
     border-radius: 30px;
 }
+.continue-button:hover {
+    /* background: #e4e4e4; */
+    opacity: 0.9;
+}
 .slider {
     position: relative;
 }
@@ -194,6 +198,9 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     font-size: 14px;
     line-height: 16px;
     color: rgba(255, 255, 255, 0.7);
+}
+.sub-footer-link:hover, .footer-menu-link:hover {
+    color: #fff;
 }
 .social-link {
     margin-left: 19px;
