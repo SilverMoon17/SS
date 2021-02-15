@@ -23,7 +23,7 @@ body {
 }
 
 .navigation-link:hover {
-    border-bottom: 4px solid white;
+    border-bottom: 3px solid white;
 }
 .input-group {
     width: 215px;
