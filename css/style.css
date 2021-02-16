@@ -19,7 +19,7 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    padding: 14px 30px;
+    padding: 13px 30px;
 }
 
 .navigation-link:hover {
@@ -122,6 +122,14 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #000;}
+
+.swiper-pagination-bullet {
+    opacity: 1;
+    background-color: #000;
+}
+.swiper-pagination-bullet-active {
+    background-color: #FFF;
+}
 .label {
     font-style: normal;
     font-weight: 700;
