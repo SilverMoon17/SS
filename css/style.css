@@ -232,7 +232,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     background: rgba(255, 255, 255, 0.5);
 }
 .payment-link:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 22px;
 }
 .sub-footer-item:not(:last-child) {
     margin-right: 40px; 
@@ -380,5 +380,11 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     }
     .swiper-pagination-bullet-active {
         display: none;
+    }
+}
+@media (max-width: 345px) {
+    .sub-footer {
+        display: flex;
+        flex-direction: column;
     }
 }
