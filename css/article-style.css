@@ -75,3 +75,22 @@
 .footer {
     margin-top: 43px;
 }
+@media(max-width: 767px) {
+    .promo.mc{
+        display: none;
+    }
+    .promo.mc2 {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    height: 480px;
+    border: 1px solid #E8E8E8;
+    margin-top: 20px;
+    position: relative;
+    background-image: url('https://media.giphy.com/media/8CnJi6Qy6JrZm/giphy.gif');
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}

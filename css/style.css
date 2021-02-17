@@ -373,13 +373,23 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     }
     .slide {
         padding-top: 20px;
-        min-height: 330px;
+        min-height: 260px;
     }
     .swiper-pagination-bullet {
         display: none;
     }
     .swiper-pagination-bullet-active {
         display: none;
+    }
+}
+@media(max-width: 500px) {
+    .slide {
+        min-height: 330px;
+    }
+}
+@media(max-width: 360px) {
+    .slide {
+        min-height: 360px;
     }
 }
 @media (max-width: 345px) {
