@@ -45,7 +45,7 @@
     background-position: center center;
     background-size: cover;
 }
-.promo::before {
+.promo.mc::before {
     content: "Реклама";
     position: absolute;
     right: 0;
@@ -76,6 +76,19 @@
     margin-top: 43px;
 }
 @media(max-width: 767px) {
+    .promo.mc2::before {
+        content: "Реклама";
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #000;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
     .promo.mc{
         display: none;
     }
