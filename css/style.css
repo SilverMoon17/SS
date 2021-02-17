@@ -387,4 +387,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
         display: flex;
         flex-direction: column;
     }
+    .payment-link:not(:last-child) {
+        margin-right: 5px;
+    }
 }
