@@ -206,6 +206,12 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     height: 100%;
     background: linear-gradient(to right,#000000 50%, white 50%);
 }
+.apple-logo {
+    margin-bottom: 37px;
+}
+.android-logo {
+    margin-bottom: 37px;
+}
 .info-title {
     font-weight: 600;
     font-size: 48px;
@@ -214,6 +220,27 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .info-image-link {
     margin-top: 37px;
 }
+/* .swiper-slide {
+    text-align: center;
+} */
+.swiper-button-next {
+    margin-left: 100px;
+}
+.gallery-thumbs-1 {
+    margin-bottom: 10px;
+}
+.gallery-thumbs-1 .swiper-slide, .gallery-thumbs-2 .swiper-slide {
+    margin-top: 15px;
+    height: 100%;
+    opacity: 0.4;
+}
+
+  .gallery-thumbs-1 .swiper-slide-thumb-active, .gallery-thumbs-2 .swiper-slide-thumb-active {
+    opacity: 1;
+}
+  .phone-slide {
+      text-align: center;
+  }
 .phone-name {
     margin: 0;
     font-weight: bold;
@@ -225,7 +252,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .phone-description {
     margin: 0;
     padding: 0;
-    margin-bottom: 44px;
 }
 .phone-description-item {
     font-size: 18px;
@@ -233,6 +259,14 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 }
 .phone-description-item:not(:last-child) {
     margin-bottom: 12px;
+}
+.phone-price {
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 33px;
+    margin-bottom: 28px;
 }
 .footer {
     /* margin-top: 500px; */
@@ -440,6 +474,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 @media(max-width: 500px) {
     .slide {
         min-height: 330px;
+    }
+    .phone-price {
+        font-size: 24px;
+        line-height: 28px;
     }
 }
 @media(max-width: 360px) {
