@@ -312,6 +312,11 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     padding-bottom: 26px;
 }
 @media(max-width: 1200px) {
+    /* .overlay {
+        position: relative;
+        z-index: 99999;
+        box-shadow: 0 0 0 9999px rgba(0,0,0, 0.7);
+    } */
     .menu-toggle {
         display: flex;
         flex-direction: column;
@@ -356,6 +361,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
         display: block;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
+        box-shadow: 0 0 0 9999px rgba(0,0,0, 0.7);
     }
     .navigation {
         display: flex;

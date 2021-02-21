@@ -7,6 +7,7 @@ menuToggle.addEventListener('click', function(event) {
   event.preventDefault();
   menu.classList.toggle('visible');
   body.classList.toggle("fixed-page");
+  // menuToggle.classList.toggle("overlay")
 });
 
 document.addEventListener('click', function(e) {
@@ -18,6 +19,7 @@ document.addEventListener('click', function(e) {
   if (!its_menu && !its_btnMenu && menu_is_active) {
     menu.classList.toggle('visible');
     body.classList.toggle("fixed-page");
+    body.classList.toggle("overlay");
   };
 });
 

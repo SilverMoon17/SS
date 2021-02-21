@@ -24,7 +24,6 @@ const swiper = new Swiper('.slider', {
   var galleryThumbs = new Swiper('.gallery-thumbs-1', {
     spaceBetween: 10,
     slidesPerView: 3,
-    loop: true,
     freeMode: true,
     loopedSlides: 5, //looped slides should be the same
     watchSlidesVisibility: true,
@@ -35,7 +34,7 @@ const swiper = new Swiper('.slider', {
         delay: 2000,
         disableOnInteraction: true,
     },
-    spaceBetween: 10,
+    spaceBetween: 40,
     loop: true,
     loopedSlides: 5, //looped slides should be the same
     navigation: {
@@ -47,13 +46,8 @@ const swiper = new Swiper('.slider', {
     },
   });
   var galleryThumbs = new Swiper('.gallery-thumbs-2', {
-    autoplay: {
-        delay: 2000,
-        disableOnInteraction: true,
-    },
     spaceBetween: 10,
     slidesPerView: 3,
-    loop: true,
     freeMode: true,
     loopedSlides: 5, //looped slides should be the same
     watchSlidesVisibility: true,
@@ -64,7 +58,7 @@ const swiper = new Swiper('.slider', {
         delay: 2000,
         disableOnInteraction: true,
     },
-    spaceBetween: 10,
+    spaceBetween: 40,
     loop: true,
     loopedSlides: 5, //looped slides should be the same
     navigation: {
